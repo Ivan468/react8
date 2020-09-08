@@ -1,8 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import Project from './TestRename/TestRename'
 
-function App() {
+class App extends React.Component {
+  render(){
+    return (
+      <div>
+          <Project/>
+      </div>
+    )
+  }
+}
+
+export default App
+
+
+function AppFunc() {
   return (
     <div className="App">
       <header className="App-header">
