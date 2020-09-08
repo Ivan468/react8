@@ -7,15 +7,22 @@ class App extends React.Component {
   render(){
     return (
       <div>
+      <h1>hello world</h1>
           <Project/>
       </div>
     )
   }
 }
 
+// <<<<<<< HEAD
 
 
 
+// =======
+// export default App;
+
+
+// >>>>>>> ebf2ce646c4c3c772d58d7b2660297179af3efe2
 // function AppFunc() {
 //   return (
 //     <div className="App">
