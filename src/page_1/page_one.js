@@ -10,7 +10,6 @@ class Page_one extends Component {
       <Router>
         <div className="page_one">
           <Header />
-          
         </div>
       </Router>
     );
