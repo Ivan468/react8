@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Table from "./table";
+import Selectapp from "./select";
+ 
 
 class Header extends Component {
   render() {
@@ -12,7 +14,7 @@ class Header extends Component {
           </div>
           <div className="menu">
             <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
+            <Link to="/charts">Charts</Link>
             <Link to="/dashboard">Categories</Link>
           </div>
         </div>
@@ -20,8 +22,8 @@ class Header extends Component {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/about">
-            <About />
+          <Route path="/charts">
+            <Charts />
           </Route>
           <Route path="/dashboard">
             <Incomes />
@@ -75,10 +77,10 @@ function Home() {
   );
 }
 
-function About() {
+function Charts() {
   return (
-    <div>
-      <h1> about</h1>
+    <div className="charts">
+       <Selectapp/>
     </div>
   );
 }
