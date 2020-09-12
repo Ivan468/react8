@@ -10,14 +10,12 @@ class Header extends Component {
           <div className="logo">
             <h3>MoneyTracker</h3>
           </div>
-
           <div className="menu">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/dashboard">Categories</Link>
           </div>
         </div>
-
         <Switch>
           <Route exact path="/">
             <Home />
@@ -64,11 +62,10 @@ function Home() {
             </div>
             <Switch>
               <Route path="/charges">
-                 <Table />
+                <Table />
               </Route>
               <Route path="/incomes">
-              <Incomes />
-
+                <Incomes />
               </Route>
             </Switch>
           </div>
@@ -81,7 +78,7 @@ function Home() {
 function About() {
   return (
     <div>
-          <h1> about</h1>
+      <h1> about</h1>
     </div>
   );
 }
