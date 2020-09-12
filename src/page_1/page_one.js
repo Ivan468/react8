@@ -22,6 +22,7 @@ class Page_one extends Component {
           </div>
           <div>
             <div className="href-right-block">
+            
               <div className="Charges">
                 <Link to="/header"> Charges</Link>
               </div>
