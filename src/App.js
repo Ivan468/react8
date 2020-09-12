@@ -4,6 +4,7 @@ import NewCategory from '../src/NewCategory/NewCategory'
 import './App.css';
 
 
+
 const App = () => {
   return (
     <div className="header-category">
