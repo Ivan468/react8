@@ -2,10 +2,17 @@ import React, { Component } from "react";
 
 import Header from "./header";
 import Table from "./table";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 class Page_one extends Component {
   render() {
     return (
+      <Router>
       <div className="page_one">
         <Header />
         <div className="right-block">
@@ -16,10 +23,10 @@ class Page_one extends Component {
           <div>
             <div className="href-right-block">
               <div className="Charges">
-                <a href="#"> Charges</a>
+                <Link to="/header"> Charges</Link>
               </div>
               <div className="Incomes">
-                <a href="#"> Incomes</a>
+                <Link to ="/"> Incomes</Link>
               </div>
             </div>
             <div className="charges">
@@ -53,6 +60,7 @@ class Page_one extends Component {
           </div>
         </div>
       </div>
+      </Router>
     );
   }
 }
