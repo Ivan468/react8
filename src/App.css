@@ -201,6 +201,59 @@ h6 {
   display: flex;
   width: 100%;
 }
+
+.Incomes {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 172px;
+  height: 54px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  /*identicaltoboxheight*/background: #5a8dee;
+  box-shadow: 0px 4px 5px rgba(90, 141, 238, 0.37);
+  border-radius: 6px;
+  letter-spacing: -0.04em;
+  border: 0;
+  color: #ffffff;
+  transition: .5s ;
+  -webkit-transition: .5s ;
+  -moz-transition: .5s ;
+  -ms-transition: .5s ;
+  -o-transition: .5s ;
+}
+
+button:hover {
+  background: #3d77e2;
+  cursor: pointer;
+}
+
+.table-header {
+  display: flex;
+  width: 100%;
+  padding: 0px 65px;
+  justify-content: space-between;
+}
+
+h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  color: #62778e;
+}
+.table-line {
+  padding: 0px 65px;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
 .charts {
 
   width: 70%;

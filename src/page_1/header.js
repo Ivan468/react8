@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Table from "./table";
 import Selectapp from "./select";
- 
+ // import Dashboard from "./page_3/header.js"
 
 class Header extends Component {
   render() {
@@ -93,10 +93,41 @@ function Charts() {
 
 function Incomes() {
   return (
-    <div>
-      <h2>incomes</h2>
-    </div>
+    <div className="right-block">
+    <div >
+           <div className="balanse">
+             <h4>balanse</h4>
+             <h5>$2,651.07</h5>
+           </div>
+           <div>
+             <div className="href-right-block">
+               <div className="charges">
+                 <span className="my-charges">Categories</span>
+               </div>
+               {/* <div className="Charges"> */}
+                 {/* <Link to="/header"> Charges</Link> */}
+               {/* </div> */}
+               <div className="Incomes">
+                 {/* <Link to="/"> Incomes</Link> */}
+               </div>
+             </div>
+             <div className="charges">
+               <div>
+                 {/* <span className="my-charges">My Charges</span> */}
+                 {/* <select className="select-p-1">
+                   <option>this week</option>
+                   <option>this month</option>
+                 </select> */}
+               </div>
+               <button>Add more</button>
+             </div>
+             <Table />
+           </div>
+         </div>
+   </div>
   );
 }
+
+
 
 export default Header;
