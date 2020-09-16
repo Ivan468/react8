@@ -65,9 +65,9 @@ function Home() {
               <Route path="/charges">
                 <Table />
               </Route>
-              <Route path="/incomes">
+              {/* <Route path="/incomes">
                 <Incomes />
-              </Route>
+              </Route> */}
             </Switch>
           </div>
         </div>
@@ -97,16 +97,16 @@ function Incomes() {
                <div className="charges">
                  <span className="my-charges">Categories</span>
                </div>
-               {/* <div className="Charges"> */}
-                 {/* <Link to="/header"> Charges</Link> */}
-               {/* </div> */}
-               <div className="Incomes">
-                 {/* <Link to="/"> Incomes</Link> */}
+               <div className="Charges">
+                 <Link to="/header"> Charges</Link>
                </div>
+               {/* <div className="Incomes">
+                 <Link to="/"> Incomes</Link>
+               </div> */}
              </div>
              <div className="charges">
                <div>
-                 {/* <span className="my-charges">My Charges</span> */}
+                 <span className="my-charges">My Charges</span>
                  {/* <select className="select-p-1">
                    <option>this week</option>
                    <option>this month</option>
