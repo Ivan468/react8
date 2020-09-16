@@ -1,0 +1,51 @@
+@mixin flex {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    max-width: 400px;
+   
+  }
+  
+  .header-category {
+      display: flex;
+      width: 100%;
+      height: auto;
+
+      h3{
+        margin: 30px;
+        
+      }
+  }
+
+  .new-category__block{
+    @include flex();
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+  }
+
+  .category-main__block{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    
+
+  }
+
+  .css-2b097c-container {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+  .category-main__input{
+      display: flex;
+      padding: 16px 5px;    
+  }
+
+  .category-main__addButton {
+    margin-top: 40px;
+  }
