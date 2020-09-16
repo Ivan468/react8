@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Table from "./table";
 import Selectapp from "./select";
- // import Dashboard from "./page_3/header.js"
+import Tabletwo from "../page_3/tableTwo"
 
 class Header extends Component {
   render() {
@@ -15,7 +15,7 @@ class Header extends Component {
           <div className="menu">
             <Link to="/">Home</Link>
             <Link to="/charts">Charts</Link>
-            <Link to="/dashboard">Categories</Link>
+            <Link to="/Categories">Categories</Link>
           </div>
         </div>
         <Switch>
@@ -25,7 +25,7 @@ class Header extends Component {
           <Route path="/charts">
             <Charts />
           </Route>
-          <Route path="/dashboard">
+          <Route path="/Categories">
             <Вashboard />
           </Route>
         </Switch>
@@ -121,7 +121,7 @@ function Вashboard() {
                </div>
                <button>Add more</button>
              </div>
-             <Table />
+             <Tabletwo />
            </div>
          </div>
    </div>

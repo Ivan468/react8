@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 
 
 import Page_one from "./page_1/page_one.js";
-import Page_three from "./page_3/page_three.js";
+
 
 
 class App extends React.Component {
@@ -13,7 +13,7 @@ class App extends React.Component {
     return (
       <>
           <Page_one/>
-          <Page_three/>
+          
       </>
     )
   }
