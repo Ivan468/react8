@@ -7,7 +7,6 @@ import Select, { Option } from "react-select";
 
 
 
-
 const NewCategory = (props) => {
   return (
     <div className="new-category__block">
@@ -15,7 +14,7 @@ const NewCategory = (props) => {
     <div className="category-main__block">
     <span className="category-main__name">Name</span>
     <div className="category-main__input">
-    <Select width= "100%"/>
+    <Select/>
     </div>
 
     <span className="category-main__name">Descripson</span>
