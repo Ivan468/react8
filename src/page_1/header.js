@@ -80,7 +80,13 @@ function Home() {
 function Charts() {
   return (
     <div className="charts">
+     <h3>Надпис</h3>
+    <input/>
+    <h3>Надпис</h3>
+    <input/>
+    <h3>Надпис</h3>
        <Selectapp/>
+       <button>Knopka</button>
     </div>
   );
 }
