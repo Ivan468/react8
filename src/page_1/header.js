@@ -26,7 +26,7 @@ class Header extends Component {
             <Charts />
           </Route>
           <Route path="/dashboard">
-            <Incomes />
+            <Вashboard />
           </Route>
         </Switch>
       </Router>
@@ -91,7 +91,7 @@ function Charts() {
   );
 }
 
-function Incomes() {
+function Вashboard() {
   return (
     <div className="right-block">
     <div >
@@ -128,6 +128,13 @@ function Incomes() {
   );
 }
 
+function Incomes() {
+ return (
+
+  <h2>Test</h2>
+ )
+
+}
 
 
 export default Header;
