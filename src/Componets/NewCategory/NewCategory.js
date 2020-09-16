@@ -1,8 +1,10 @@
 import React from 'react';
 import './NewCategory.css';
 import './NewCategory.scss';
-import icon from './icon.svg';
-import Select from './com'
+import Select, { Option } from "react-select";
+
+
+
 
 
 
@@ -13,13 +15,13 @@ const NewCategory = () => {
     <div className="category-main__block">
     <span className="category-main__name">Name</span>
     <div className="category-main__input">
-    <input type="text"></input>
+    <Select/>
     </div>
 
     <span className="category-main__name">Descripson</span>
     <div className="category-main__input">
-    <input type="text"></input>
 
+    <Select/>
     </div>
     <div className="category-main__icon"></div>
     <span className="category-main__name">Select icon</span>

@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from './'
-import NewCategory from './src/Componets/NewCategory/NewCategory.js'
+import Header from './Componets/Header/Header'
+
+import NewCategory from '/Users/mac/Desktop/lesson-react-2/react8/src/Componets/NewCategory/NewCategory.js'
 import './App.css';
 
 

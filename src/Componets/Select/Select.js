@@ -1,11 +1,11 @@
 import React, { Component } from "react";
  
 // import "./select.css";
-import Select, { components } from "react-select";
+ 
 
 const options = [
-  { value: "England", label: "England", icon: "fork.svg" },
-  { value: "Germany", label: "Germany", icon: "fork.svg" }
+  { value: "England", label: "England", icon: "icon.svg" },
+  { value: "Germany", label: "Germany", icon: "icon.svg" }
 ];
 
 const { Option } = components;
@@ -25,7 +25,7 @@ function Selectapp() {
     this.state = {
       name: "React"
     };
-  }
+  
 
 
     return (
