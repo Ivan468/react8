@@ -1,41 +1,21 @@
-import React, { Component } from "react";
- 
-// import "./select.css";
- 
+import React from 'react';
 
-const options = [
-  { value: "England", label: "England", icon: "icon.svg" },
-  { value: "Germany", label: "Germany", icon: "icon.svg" }
-];
+import { flavourOptions } from '../data';
+import Select from 'react-select';
 
-const { Option } = components;
-const IconOption = props => (
-  <Option {...props}>
-    <img
-      src={require('./' + props.data.icon)}
-      style={{ width: 36 }}
-      alt={props.data.label}
-    />
-     
-  </Option>
+export default () => (
+  <Select
+    defaultValue={flavourOptions[2]}
+    label="Single select"
+    options={flavourOptions}
+    theme={theme => ({
+      ...theme,
+      borderRadius: 0,
+      colors: {
+        ...theme.colors,
+        primary25: 'hotpink',
+        primary: 'black',
+      },
+    })}
+  />
 );
-
-function Selectapp() {
-
-    this.state = {
-      name: "React"
-    };
-  
-
-
-    return (
-      <Select
-        defaultValue={options[0]}
-        options={options}
-        components={{ Option: IconOption }}
-      />
-    );
-  
-}
-
-export default Selectapp;

@@ -34,9 +34,16 @@
 
   }
 
+  .css-2b097c-container {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+}
+
 
   .category-main__input{
       display: flex;
+      padding: 16px 5px;    
   }
 
   .category-main__addButton {

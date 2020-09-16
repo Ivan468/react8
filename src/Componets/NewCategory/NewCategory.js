@@ -8,14 +8,14 @@ import Select, { Option } from "react-select";
 
 
 
-const NewCategory = () => {
+const NewCategory = (props) => {
   return (
     <div className="new-category__block">
     <h3 className="category-header__name">New category</h3>
     <div className="category-main__block">
     <span className="category-main__name">Name</span>
     <div className="category-main__input">
-    <Select/>
+    <Select width= "100%"/>
     </div>
 
     <span className="category-main__name">Descripson</span>
