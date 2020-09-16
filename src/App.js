@@ -1,14 +1,14 @@
 import React from 'react';
 // import logo from './logo.svg';
 // import './App.css';
-import Project from './TestRename/TestRename'
+import NewCharge from '/Users/mac/Desktop/lesson-react-2/react8/src/NewCharge/NewCharge.js'
 
 class App extends React.Component {
   render(){
     return (
       <div>
       <h1>hello world!!!</h1>
-          <Project/>
+      <NewCharge/>
       </div>
     )
   }

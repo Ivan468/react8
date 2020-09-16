@@ -1,7 +1,6 @@
 import React from 'react';
-import './NewCategory.css';
-import './NewCategory.scss';
-import Selectapp from  './selectApp'
+import './NewCharge.css';
+import './NewCharge.scss';
 
 
 
@@ -14,7 +13,7 @@ function Charts() {
     <h3>Надпис</h3>
     <input/>
     <h3>Надпис</h3>
-       <Selectapp/>
+
        <button>Knopka</button>
     </div>
   );
@@ -51,4 +50,4 @@ const NewCharge = (props) => {
   )
 }
 
-export default NewCategory;
+export default NewCharge;
