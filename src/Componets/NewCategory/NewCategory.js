@@ -2,6 +2,7 @@ import React from 'react';
 import './NewCategory.css';
 import './NewCategory.scss';
 import icon from './icon.svg';
+import Select from './com'
 
 
 
@@ -23,8 +24,7 @@ const NewCategory = () => {
     <div className="category-main__icon"></div>
     <span className="category-main__name">Select icon</span>
     <div className="category-main__input">
-    <img src ={icon} />
-    <input  type="select"></input> 
+    <Select/>
     </div>
 
     <button className="category-main__addButton">Add new category</button>

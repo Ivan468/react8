@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../src/Header/Header'
-import NewCategory from '../src/NewCategory/NewCategory'
+import Header from './'
+import NewCategory from './src/Componets/NewCategory/NewCategory.js'
 import './App.css';
 
 
