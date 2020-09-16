@@ -8,10 +8,7 @@ class Page_three extends Component {
   render() {
     return (
       <Router>
-        <div className="page_three">
-          <Header />
-          
-        </div>
+        <div className="page_three"></div>
       </Router>
     );
   }
