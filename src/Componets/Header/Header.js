@@ -10,10 +10,6 @@ class Header extends Component {
             <h3>MoneyTracker</h3>
         </div>
 
-
-
-
-
         <div className="menu">
             <a href="#"> Home</a>
             <a href="#"> Charts</a>
